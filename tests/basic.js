@@ -1,5 +1,5 @@
 this.demoTest = function(client) {
-    this.getLogTypes(function(typesArray) {
+    client.getLogTypes(function(typesArray) {
 
     });
 };
