@@ -1,0 +1,24 @@
+{
+  "name": "testall",
+  "version": "1.0.0",
+  "description": "Tests all the things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com"
+  },
+  "keywords": [
+    "e2e",
+    "selenium",
+    "phantomjs",
+    "casper"
+  ],
+  "author": "Michael Roberts Jr",
+  "license": "MIT",
+  "devDependencies": {
+    "nightwatch": "^0.6.9"
+  }
+}

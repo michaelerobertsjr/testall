@@ -1,0 +1,27 @@
+14:07:26.348 INFO - Launching a standalone server
+Setting system property webdriver.chrome.driver to libs/chromedriver
+14:07:26.381 INFO - Java: Oracle Corporation 24.71-b01
+14:07:26.381 INFO - OS: Mac OS X 10.10.3 x86_64
+14:07:26.391 INFO - v2.43.1, with Core v2.43.1. Built from revision 5163bce
+14:07:26.465 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
+14:07:26.498 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+14:07:26.499 INFO - Version Jetty/5.1.x
+14:07:26.499 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+14:07:26.500 INFO - Started HttpContext[/selenium-server,/selenium-server]
+14:07:26.500 INFO - Started HttpContext[/,/]
+14:07:26.518 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@4f735faa
+14:07:26.518 INFO - Started HttpContext[/wd,/wd]
+14:07:26.522 INFO - Started SocketListener on 0.0.0.0:4444
+14:07:26.522 INFO - Started org.openqa.jetty.jetty.Server@4c7d5d85
+14:07:26.713 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=phantomjs, name=Basic, phantomjs.binary.path=/usr/local/bin/phantomjs/}]])
+14:07:26.721 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=phantomjs, name=Basic, phantomjs.binary.path=/usr/local/bin/phantomjs/}]
+14:07:26.728 INFO - executable: /usr/local/bin/phantomjs
+14:07:26.729 INFO - port: 14534
+14:07:26.729 INFO - arguments: [--webdriver=14534, --webdriver-logfile=/Users/michael/zeeto/testall/phantomjsdriver.log]
+14:07:26.729 INFO - environment: {}
+[INFO  - 2015-05-14T21:07:27.217Z] GhostDriver - Main - running on port 14534
+[INFO  - 2015-05-14T21:07:27.490Z] Session [39c2a0f0-fa7d-11e4-9a3e-2164a48bf8ef] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2015-05-14T21:07:27.491Z] Session [39c2a0f0-fa7d-11e4-9a3e-2164a48bf8ef] - page.customHeaders:  - {}
+[INFO  - 2015-05-14T21:07:27.491Z] Session [39c2a0f0-fa7d-11e4-9a3e-2164a48bf8ef] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-05-14T21:07:27.491Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 39c2a0f0-fa7d-11e4-9a3e-2164a48bf8ef
+14:07:27.521 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=phantomjs, name=Basic, phantomjs.binary.path=/usr/local/bin/phantomjs/}]]
